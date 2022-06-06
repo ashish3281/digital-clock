@@ -18,4 +18,5 @@ Step 8: Now call the function at the end to start function at exact reloading/re
 <p> I am using some CSS also to style my page.</p>
 <hr>
 <h2>OUTPUT</h2>
-![Screenshot (211)](https://user-images.githubusercontent.com/92047366/172159798-80c2edce-887a-4e6c-9032-26cd2a72cef9.png)
+![Screenshot (211)](https://user-images.githubusercontent.com/92047366/172159955-f2c30f29-ed87-4b27-ad5e-e90cbd1cbb63.png)
+

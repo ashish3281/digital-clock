@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+    background-image: url("back.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#time{
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+#time .circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time div{
+    position: absolute;
+    text-align: center;
+    font-size: 500;
+    font-size: 1.5em;
+}
+#time .ap{
+    position: relative;
+    font: 1em;
+    transform: translate(-20px);
+}
+#time .circle svg{
+    position: relative;
+    /* text-align: center;
+    font-weight: 500;
+    font-size: 1.5em; */
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+#time .circle svg circle{
+    width: 100%;
+    height: 100%;
+    fill: url("photo.JPG");
+    stroke: #191919;
+    stroke-width: 4;
+    transform: translate(5px ,5px);
+}
+#time .circle svg circle:nth-child(2){
+    stroke: var(--clr);
+    /* stroke-dasharray: 440; */
+}

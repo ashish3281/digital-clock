@@ -14,3 +14,7 @@ Step 6: Now replace the string variable in the “div” using innerHTML propert
 Step 7: To call the function every second use setInterval() method and set time-interval as 1000ms which is equal to 1s.
 Step 8: Now call the function at the end to start function at exact reloading/rendering time as setInterval() will call first after 1s of rendering.
 </pre>
+<hr>
+<p> I am using some CSS also to style my page.</p>
+<hr>
+<h2>OUTPUT</h2>
